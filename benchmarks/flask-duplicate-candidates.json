@@ -1,0 +1,172 @@
+{
+  "version": 1,
+  "description": "Candidate duplicate pairs found independently from IssueLens retrieval. Each evidence URL is a Flask maintainer or collaborator comment that explicitly uses duplicate/dupe language next to the target issue number. All pairs require manual approval before evaluation.",
+  "evidence_policy": "Open every source, target, and evidence URL. Set approved to true only when the linked GitHub activity explicitly establishes the source issue as a duplicate of the target issue.",
+  "pairs": [
+    {
+      "id": "flask-5901-3747",
+      "repository": "pallets/flask",
+      "query_issue_number": 5901,
+      "target_issue_number": 3747,
+      "source_issue_url": "https://github.com/pallets/flask/issues/5901",
+      "target_issue_url": "https://github.com/pallets/flask/issues/3747",
+      "evidence_url": "https://github.com/pallets/flask/issues/5901#issuecomment-3797892707",
+      "evidence_note": "Maintainer davidism explicitly references #3747 with duplicate language.",
+      "approved": true
+    },
+    {
+      "id": "flask-5642-371",
+      "repository": "pallets/flask",
+      "query_issue_number": 5642,
+      "target_issue_number": 371,
+      "source_issue_url": "https://github.com/pallets/flask/issues/5642",
+      "target_issue_url": "https://github.com/pallets/flask/issues/371",
+      "evidence_url": "https://github.com/pallets/flask/issues/5642#issuecomment-2476702272",
+      "evidence_note": "Maintainer davidism explicitly references #371 with duplicate language.",
+      "approved": false
+    },
+    {
+      "id": "flask-4994-3404",
+      "repository": "pallets/flask",
+      "query_issue_number": 4994,
+      "target_issue_number": 3404,
+      "source_issue_url": "https://github.com/pallets/flask/issues/4994",
+      "target_issue_url": "https://github.com/pallets/flask/issues/3404",
+      "evidence_url": "https://github.com/pallets/flask/issues/4994#issuecomment-1441830506",
+      "evidence_note": "Maintainer davidism explicitly references #3404 with duplicate language.",
+      "approved": true
+    },
+    {
+      "id": "flask-4990-4734",
+      "repository": "pallets/flask",
+      "query_issue_number": 4990,
+      "target_issue_number": 4734,
+      "source_issue_url": "https://github.com/pallets/flask/issues/4990",
+      "target_issue_url": "https://github.com/pallets/flask/issues/4734",
+      "evidence_url": "https://github.com/pallets/flask/issues/4990#issuecomment-1438573317",
+      "evidence_note": "Maintainer davidism explicitly references #4734 with duplicate language.",
+      "approved": true
+    },
+    {
+      "id": "flask-4817-3404",
+      "repository": "pallets/flask",
+      "query_issue_number": 4817,
+      "target_issue_number": 3404,
+      "source_issue_url": "https://github.com/pallets/flask/issues/4817",
+      "target_issue_url": "https://github.com/pallets/flask/issues/3404",
+      "evidence_url": "https://github.com/pallets/flask/issues/4817#issuecomment-1245672024",
+      "evidence_note": "Maintainer davidism explicitly references #3404 with duplicate language.",
+      "approved": true
+    },
+    {
+      "id": "flask-4931-4928",
+      "repository": "pallets/flask",
+      "query_issue_number": 4931,
+      "target_issue_number": 4928,
+      "source_issue_url": "https://github.com/pallets/flask/issues/4931",
+      "target_issue_url": "https://github.com/pallets/flask/issues/4928",
+      "evidence_url": "https://github.com/pallets/flask/issues/4931#issuecomment-1367488370",
+      "evidence_note": "Maintainer davidism explicitly references #4928 with duplicate language.",
+      "approved": true
+    },
+    {
+      "id": "flask-4456-4455",
+      "repository": "pallets/flask",
+      "query_issue_number": 4456,
+      "target_issue_number": 4455,
+      "source_issue_url": "https://github.com/pallets/flask/issues/4456",
+      "target_issue_url": "https://github.com/pallets/flask/issues/4455",
+      "evidence_url": "https://github.com/pallets/flask/issues/4456#issuecomment-1044530631",
+      "evidence_note": "Maintainer davidism explicitly references #4455 with duplicate language.",
+      "approved": true
+    },
+    {
+      "id": "flask-4434-4307",
+      "repository": "pallets/flask",
+      "query_issue_number": 4434,
+      "target_issue_number": 4307,
+      "source_issue_url": "https://github.com/pallets/flask/issues/4434",
+      "target_issue_url": "https://github.com/pallets/flask/issues/4307",
+      "evidence_url": "https://github.com/pallets/flask/issues/4434#issuecomment-1025159295",
+      "evidence_note": "Maintainer davidism explicitly references #4307 with duplicate language.",
+      "approved": true
+    },
+    {
+      "id": "flask-4351-4307",
+      "repository": "pallets/flask",
+      "query_issue_number": 4351,
+      "target_issue_number": 4307,
+      "source_issue_url": "https://github.com/pallets/flask/issues/4351",
+      "target_issue_url": "https://github.com/pallets/flask/issues/4307",
+      "evidence_url": "https://github.com/pallets/flask/issues/4351#issuecomment-974670686",
+      "evidence_note": "Maintainer davidism explicitly references #4307 with duplicate language.",
+      "approved": true
+    },
+    {
+      "id": "flask-4137-3545",
+      "repository": "pallets/flask",
+      "query_issue_number": 4137,
+      "target_issue_number": 3545,
+      "source_issue_url": "https://github.com/pallets/flask/issues/4137",
+      "target_issue_url": "https://github.com/pallets/flask/issues/3545",
+      "evidence_url": "https://github.com/pallets/flask/issues/4137#issuecomment-855424065",
+      "evidence_note": "Maintainer davidism explicitly references #3545 with duplicate language.",
+      "approved": true
+    },
+    {
+      "id": "flask-4086-4069",
+      "repository": "pallets/flask",
+      "query_issue_number": 4086,
+      "target_issue_number": 4069,
+      "source_issue_url": "https://github.com/pallets/flask/issues/4086",
+      "target_issue_url": "https://github.com/pallets/flask/issues/4069",
+      "evidence_url": "https://github.com/pallets/flask/issues/4086#issuecomment-845905888",
+      "evidence_note": "Pallets collaborator pgjones explicitly references #4069 with duplicate language.",
+      "approved": true
+    },
+    {
+      "id": "flask-4038-4020",
+      "repository": "pallets/flask",
+      "query_issue_number": 4038,
+      "target_issue_number": 4020,
+      "source_issue_url": "https://github.com/pallets/flask/issues/4038",
+      "target_issue_url": "https://github.com/pallets/flask/issues/4020",
+      "evidence_url": "https://github.com/pallets/flask/issues/4038#issuecomment-840548939",
+      "evidence_note": "Pallets collaborator ThiefMaster explicitly references #4020 with duplicate language.",
+      "approved": false
+    },
+    {
+      "id": "flask-2768-2741",
+      "repository": "pallets/flask",
+      "query_issue_number": 2768,
+      "target_issue_number": 2741,
+      "source_issue_url": "https://github.com/pallets/flask/issues/2768",
+      "target_issue_url": "https://github.com/pallets/flask/issues/2741",
+      "evidence_url": "https://github.com/pallets/flask/issues/2768#issuecomment-387737774",
+      "evidence_note": "Maintainer davidism explicitly references #2741 with duplicate language.",
+      "approved": false
+    },
+    {
+      "id": "flask-1736-16",
+      "repository": "pallets/flask",
+      "query_issue_number": 1736,
+      "target_issue_number": 16,
+      "source_issue_url": "https://github.com/pallets/flask/issues/1736",
+      "target_issue_url": "https://github.com/pallets/flask/issues/16",
+      "evidence_url": "https://github.com/pallets/flask/issues/1736#issuecomment-187238704",
+      "evidence_note": "Pallets collaborator ThiefMaster explicitly references #16 with duplicate language.",
+      "approved": false
+    },
+    {
+      "id": "flask-1251-7",
+      "repository": "pallets/flask",
+      "query_issue_number": 1251,
+      "target_issue_number": 7,
+      "source_issue_url": "https://github.com/pallets/flask/issues/1251",
+      "target_issue_url": "https://github.com/pallets/flask/issues/7",
+      "evidence_url": "https://github.com/pallets/flask/issues/1251#issuecomment-63975499",
+      "evidence_note": "Maintainer davidism explicitly references #7 with duplicate language.",
+      "approved": false
+    }
+  ]
+}

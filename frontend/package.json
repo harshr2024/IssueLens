@@ -1,0 +1,9 @@
+{
+  "name": "issuelens-ui",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node --check src/app.js && node build.mjs",
+    "test": "node --test test/*.test.js"
+  }
+}

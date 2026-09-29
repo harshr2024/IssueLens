@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "illustrative_only": true,
+  "judgments_verified": false,
+  "description": "FORMAT EXAMPLE ONLY. Replace every query and issue number with manually verified Flask relevance judgments, then set illustrative_only to false.",
+  "queries": [
+    {
+      "id": "replace-me-1",
+      "repository": "pallets/flask",
+      "title": "Replace with a real evaluation query",
+      "body": "Optional query details go here.",
+      "relevant_issue_numbers": [12345]
+    }
+  ]
+}

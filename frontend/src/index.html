@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>IssueLens · A clearer starting point</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="module" src="/assets/app.js"></script>
+</head>
+<body>
+  <header><a class="brand" href="/">◉ <span>IssueLens</span></a><span class="local"><i></i> Local-first triage</span></header>
+  <main>
+    <section class="intro"><div class="eyebrow">LESS GUESSWORK. BETTER REPORTS.</div><h1>A clearer starting point<br>for your next issue.</h1><p>Find relevant conversations and the details your report still needs.<br>Powered by semantic search and a local language model.</p></section>
+    <div class="workspace">
+      <section class="panel input-panel"><div class="section-label">01 / YOUR REPORT</div><h2>What went wrong?</h2>
+        <form id="triage-form">
+          <label for="repository">Repository</label><input id="repository" name="repository" value="pallets/flask" required maxlength="511" pattern="[^/\s]+/[^/\s]+" placeholder="owner/repository">
+          <label for="title">Issue title</label><input id="title" name="title" required maxlength="300" placeholder="A short description of the problem">
+          <label for="body">Description <span class="optional">optional</span></label><textarea id="body" name="body" maxlength="8000" rows="9" placeholder="What happened? What did you expect? Include steps, versions, and error messages if you have them."></textarea>
+          <div class="form-tools"><button id="example" type="button" class="text-button">Try a Flask example ↗</button><span id="count">0 / 8,000</span></div>
+          <button class="primary" id="submit" type="submit">Review report <span>→</span></button>
+          <p class="privacy">Read-only · Your report is never posted to GitHub.</p>
+        </form>
+      </section>
+      <section class="output" aria-live="polite" aria-busy="false" id="output">
+        <div id="status" class="empty"><div class="lens">◎</div><h2>Context, before conclusions.</h2><p>Submit a report to see missing details and up to three related issues from your imported repository.</p><div class="chips"><span>Local model</span><span>Grounded excerpts</span></div></div>
+        <div id="error" role="alert" hidden></div>
+        <div id="results" hidden><div class="panel checklist"><div class="section-label">02 / COMPLETE THE PICTURE</div><h2>Details to add</h2><ul id="missing"></ul></div><div class="candidate-heading"><h2>Candidate issues</h2><span>Semantic search · top 3</span></div><p class="score-note">Similarity measures text proximity. It is not a duplicate probability.</p><div id="candidates"></div></div>
+      </section>
+    </div>
+  </main>
+  <footer><span>IssueLens / Local issue triage</span><a href="/docs">API documentation ↗</a></footer>
+</body>
+</html>
